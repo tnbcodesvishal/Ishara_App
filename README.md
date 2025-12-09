@@ -94,7 +94,7 @@ This project is a major step toward **inclusive communication** for India’s he
 
 | Name | GitHub | Role |
 |------|--------|------|
-| **Krishnav Talukdar** | [@krishnav talukdar](https://github.com/krishnavtalukdar) | Core Contributor – Model & System Development |
+| **Krishnav Talukdar** | [@cyberconqueror](https://github.com/CYBERCONQUEROR) | Core Contributor – Model & System Development |
 
 ---
 
