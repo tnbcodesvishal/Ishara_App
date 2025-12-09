@@ -1,9 +1,33 @@
-This repo hosts the official MediaPipe samples with a goal of showing the fundamental steps involved to create apps with our machine learning platform. 
+<h2 align="center">🏠 Home Page</h2>
+<p align="center">
+  <img src="examples/hand_landmarker/android/images/IMG-20251209-WA0013.jpg" width="350">
+</p>
 
-External PRs for fixes are welcome, however new sample/demo PRs will likely be rejected to maintain the simplicity of this repo for ongoing maintenance. It is strongly recommended that contributors who are interested in submitting more complex samples or demos host their samples in their own public repos and create written tutorials to share with the community. Contributors can also submit these projects and tutorials to the [Google DevLibrary](https://devlibrary.withgoogle.com/)
+---
 
+<h2 align="center">🤟 Translate Indian Sign Language to Text & Voice</h2>
+<p align="center">
+  <img src="examples/hand_landmarker/android/images/WhatsApp Image 2025-12-09 at 18.12.08_6d1ddece.jpg" width="350">
+</p>
 
-MediaPipe Solutions streamlines on-device ML development and deployment with flexible low-code / no-code tools that provide the modular building blocks for creating custom high-performance solutions for cross-platform deployment. It consists of the following components:
-* MediaPipe Tasks (low-code): create and deploy custom e2e ML solution pipelines
-* MediaPipe Model Maker (low-code): create custom ML models from advanced solutions
-* MediaPipe Studio (no-code): create, evaluate, debug, benchmark, prototype, deploy advanced production-level solutions
+---
+
+<h2 align="center">🎤 Translate Voice to ISL</h2>
+<p align="center">
+  <img src="examples/hand_landmarker/android/images/IMG-20251209-WA0016.jpg" width="350">
+  <img src="examples/hand_landmarker/android/images/IMG-20251209-WA0018.jpg" width="350">
+</p>
+
+---
+
+<h2 align="center">📚 Learn ISL</h2>
+<p align="center">
+  <img src="examples/hand_landmarker/android/images/IMG-20251209-WA0014.jpg" width="350">
+</p>
+
+---
+
+<h2 align="center">👤 Profile</h2>
+<p align="center">
+  <img src="examples/hand_landmarker/android/images/IMG-20251209-WA0017.jpg" width="350">
+</p>
