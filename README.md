@@ -88,6 +88,16 @@ This project is a major step toward **inclusive communication** for India’s he
 - **Awarded by the Hon’ble Governor of Uttar Pradesh** for this innovation  
 
 ---
+---
+
+# 👥 Contributors
+
+| Name | GitHub | Role |
+|------|--------|------|
+| **Krishnav Talukdar** | [@krishnav talukdar](https://github.com/krishnavtalukdar) | Core Contributor – Model & System Development |
+
+---
+
 
 # 📱 Mobile App Screens — ISHARA (Android Version)
 
