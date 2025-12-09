@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeee"
+        android:icon="@drawable/homeico"
+        android:title="Home">
+
+    </item>
+    <item
+        android:id="@+id/Sing"
+        android:icon="@drawable/camico"
+        android:title="Camera"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/speach"
+        android:icon="@drawable/microphone"
+        android:title="Speach"
+        >
+
+    </item>
+    <item
+        android:id="@+id/learnisl"
+        android:icon="@drawable/book"
+        android:title="Learn">
+
+    </item>
+
+
+
+
+</menu>

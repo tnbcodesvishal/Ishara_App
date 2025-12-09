@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "219119155760",
+    "firebase_url": "https://right-quiz-default-rtdb.firebaseio.com",
+    "project_id": "right-quiz",
+    "storage_bucket": "right-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219119155760:android:e670082d4960c1c99f0bf5",
+        "android_client_info": {
+          "package_name": "com.google.mediapipe.examples.handlandmarker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219119155760-7p30but6fdc3p6oeju3n31v88u4u7ja4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe26RUvNgReAFtR0MesKaqn6BuvO5lMqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219119155760-7p30but6fdc3p6oeju3n31v88u4u7ja4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219119155760:android:f0a59de4dd302e979f0bf5",
+        "android_client_info": {
+          "package_name": "com.vishal.ishara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219119155760-9i8tq5d3bgqpb54440j1qjicadgt5osi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vishal.ishara",
+            "certificate_hash": "1b1edcd8c25fe196cd01349bd9197a37707ca67a"
+          }
+        },
+        {
+          "client_id": "219119155760-7p30but6fdc3p6oeju3n31v88u4u7ja4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe26RUvNgReAFtR0MesKaqn6BuvO5lMqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219119155760-7p30but6fdc3p6oeju3n31v88u4u7ja4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219119155760:android:d4f37f1c3aed06b29f0bf5",
+        "android_client_info": {
+          "package_name": "in.abroadtax.right"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219119155760-7p30but6fdc3p6oeju3n31v88u4u7ja4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe26RUvNgReAFtR0MesKaqn6BuvO5lMqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219119155760-7p30but6fdc3p6oeju3n31v88u4u7ja4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

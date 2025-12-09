@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginBottom="55dp"
+    android:background="@color/white"
+    tools:context=".fragment.learnisl">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/rommfxyd8r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/r8ivy635nh95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/r9e2bq02vqro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:background="#F9F9F9"
+                    android:paddingVertical="16dp"
+                    android:paddingLeft="64dp"
+                    android:paddingRight="16dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/rvhmmgtgici"
+                        android:textColor="#0F1419"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Learn ISL"
+                        />
+                    <LinearLayout
+                        android:id="@+id/rjhxwftltg8a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:paddingVertical="12dp"
+                        android:paddingLeft="24dp"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/r2rqdtxmh0f2"
+                    android:textColor="#0F1419"
+                    android:textSize="16sp"
+                    android:layout_marginVertical="4dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Start learning Indian Sign Language"
+                    />
+
+            </LinearLayout>
+
+
+
+            <ScrollView
+                android:id="@+id/rh3d5aahpq45"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+
+                android:layout_weight="1"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:id="@+id/r16hm55mq2x1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="16dp"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="12dp">
+
+                            <!-- Hello Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/hello"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:background="@color/white"
+                                    android:orientation="horizontal"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/hello"
+                                        android:scaleType="fitCenter" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Hello"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Thank You Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginStart="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/thankyou"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:background="@color/white"
+                                    android:orientation="horizontal"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/hands"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Thank You"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+
+                        <!-- Second Row -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginBottom="12dp">
+
+                            <!-- Sorry Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/trust"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:background="@color/white"
+                                    android:orientation="horizontal"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/hands"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Trust"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Goodbye Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginStart="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/Like"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:orientation="horizontal"
+                                    android:background="@color/white"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/bye"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Like"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+                        </LinearLayout>
+
+
+                        <!-- Third Row -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <!-- Please Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/please"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:orientation="horizontal"
+                                    android:background="@color/white"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/please"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Please"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Yes Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginStart="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/goodmorning"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:orientation="horizontal"
+                                    android:background="@color/white"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/yes"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Good Morning
+"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <!-- Please Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/slow"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:orientation="horizontal"
+                                    android:background="@color/white"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/please"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Slow"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Yes Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginStart="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/team"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:orientation="horizontal"
+                                    android:background="@color/white"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/yes"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Team
+"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <!-- Please Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/want"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:orientation="horizontal"
+                                    android:background="@color/white"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/please"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Want"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Yes Card -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="150dp"
+                                android:layout_weight="1"
+                                android:layout_marginStart="8dp"
+                                app:cardCornerRadius="12dp"
+                                app:cardElevation="4dp"
+                                app:cardUseCompatPadding="true">
+
+                                <LinearLayout
+                                    android:id="@+id/water"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:padding="12dp"
+                                    android:orientation="horizontal"
+                                    android:background="@color/white"
+                                    android:gravity="center_vertical">
+
+                                    <ImageView
+                                        android:layout_width="32dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginEnd="12dp"
+                                        android:src="@drawable/yes"
+                                        android:scaleType="fitCenter"/>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Water
+"
+                                        android:textStyle="bold"
+                                        android:textSize="18sp"
+                                        android:textColor="#0F1419"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

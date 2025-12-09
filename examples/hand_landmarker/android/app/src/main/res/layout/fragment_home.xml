@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F5F7FA"
+
+    tools:context=".fragment.home">
+
+
+    <!-- Awareness & Facts -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TOP GRADIENT CARD -->
+        <!-- TOP GRADIENT CARD -->
+
+
+        <!-- FEATURE GRID -->
+        <!-- FEATURE GRID -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:background="@drawable/bg_top_gradient"
+            android:clipToPadding="false"
+            android:padding="20dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ishara"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+            <!-- Subtitle -->
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/appName"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:text="Bridging Worlds Together"
+                android:textColor="#E8ECF4"
+                android:textSize="13sp" />
+
+            <!-- Profile Icon -->
+            <ImageView
+                android:id="@+id/profilereal"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/outline_account_circle_24"
+                android:padding="10dp" />
+
+            <!-- Stats Row -->
+            <LinearLayout
+                android:id="@+id/statsRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subtitle"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!-- Stat Card 1 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_stat_card"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5M+"
+
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deaf Individuals"
+                        android:textStyle="bold"
+                        android:textColor="#EAEAEA"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Stat Card 2 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_stat_card"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6.3 CR"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mute Individuals"
+                        android:textColor="#EAEAEA"
+                        android:textStyle="bold"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="25dp"
+            android:useDefaultMargins="true"
+            android:layout_marginTop="-50dp">  <!-- Key for merging/overlap -->
+
+            <!-- Translate -->
+            <LinearLayout
+             android:id="@+id/camerapage"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_white_card"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/camera"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:text="Translate"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gesture to Text/Speech"
+                    android:textStyle="bold"
+                    android:textColor="#777"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- Learn -->
+            <LinearLayout
+                android:id="@+id/learnislmo"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/bg_white_card"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/kitab"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:text="Learn"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:text="ISL Modules"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#777"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/speakk"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_white_card"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/speak"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:text="Speak"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:text="Speech to Gesture"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#777"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- Learn -->
+            <LinearLayout
+                android:id="@+id/signlearned"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:background="@drawable/bg_white_card"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/hello"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:text="Signs Learned"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:text="127"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="#777"
+                    android:textStyle="bold"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/minutespra"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_white_card"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/clocks"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:text="Minutes Praticed"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:text="145"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="#777"
+                    android:textStyle="bold"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- Learn -->
+            <LinearLayout
+                android:id="@+id/progressss"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:background="@drawable/bg_white_card"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="170dp"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/progress"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:text="Progress"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="8dp" />
+
+                <TextView
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="#777"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+
+
+
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+            <!-- DAILY STREAK CARD -->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
